@@ -53,7 +53,7 @@ input {
 
 
 /* pulsante */
-#genera-biglietto {
+button {
     box-shadow: none;
     border: none;
     border-radius: 4px;
