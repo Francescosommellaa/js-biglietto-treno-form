@@ -10,6 +10,48 @@
 </head>
 <body>
 
+    <div class="container-biglietto">
+
+        <!-- header -->
+        <section>
+            <h1>Genera il tuo biglietto</h1>
+            <p class="sottotitolo-principale">
+                Approfitta di un risparmio fino al 40% se sei un minorenne o se hai superato i 65 anni di età.
+            </p>
+        </section>
+
+        <!-- calcolo prezzo biglietto -->
+        <section>
+            <h2>Calcolo del prezzo del biglietto</h2>
+            <div class="input-top">
+                <input type="texxt" id="nome" name="nome" placeholder="Inserisci il nome del passeggero">
+            </div>
+            <div class="input-top">
+                <input type="number" id="km" name="km" placeholder="Inserisci i chilometri da percorrere:">
+            </div>
+    
+            <div class="input-top">
+                <input type="number" id="eta" name="eta" placeholder="Inserisci l'età del passeggero:">
+            </div>
+        </section>
+
+        <button id="genera-biglietto">Genera Biglietto</button>
+
+        <!-- Dettagli prezzo biglietto -->
+        <section>
+            <h2>Dettagli del biglietto</h2>
+            <div>
+                <div>
+                    <span id="nome-passeggero"></span>
+                    <span id="prezzo-biglietto"></span>
+                </div>
+                <div>
+                    <span id="eta-passeggero"></span>
+                    <span id="sconto-applicato"></span>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <!-- js -->
     <script src="JS/main.js"></script>
