@@ -4,19 +4,19 @@ document.getElementById('genera-biglietto').addEventListener('click',
 function() {
 
     // richiesta nome
-    var nome = document.getElementById('nome').value;
+    let nome = document.getElementById('nome').value;
 
     console.log(nome);
 
     // richiesta età e kilometri da percorrere
-    var km = document.getElementById('km').value;
-    var eta = document.getElementById('eta').value;
+    let km = document.getElementById('km').value;
+    let eta = document.getElementById('eta').value;
 
     console.log(km + eta);
 
     // calcolo prezzo biglietto
-    var prezzo = 0.21 * km;
-    var sconto = '';
+    let prezzo = 0.21 * km;
+    let sconto = '';
 
     console.log(prezzo);
 
@@ -46,7 +46,7 @@ document.getElementById('acquista-biglietto').addEventListener('click',
 
 function() {
     // calcolo codice biglietto
-    var codiceBiglietto = Math.floor(Math.random() * 100000);
+    let codiceBiglietto = Math.floor(Math.random() * 100000);
     
     console.log(codiceBiglietto);
 
